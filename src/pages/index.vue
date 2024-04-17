@@ -73,7 +73,7 @@ export default Vue.extend({
             url: "https://www.tis.edu.sa/",
             position: "High School - IGCSE",
             date: "2017-2021",
-          }
+          },
         ],
       } as ExperienceObject,
       cards: {
@@ -135,47 +135,68 @@ export default Vue.extend({
             "Tailwind CSS",
             "Node.js",
             "Sass",
-            "Spring Boot",
-            "Java",
-            "C++",
-            "Python",
-            "Express.js",
-            "PostgreSQL",
-            "MongoDB"
-          ],
-        },
-        {
-          title: "Apps",
-          items: [
             {
-              title: "VS Code",
-              iconPack: "IconBrand",
+              title: "Spring Boot",
+              image: "https://img.icons8.com/color/48/000000/spring-logo.png",
             },
             {
-              title: "Raycast",
-              image: "https://i.imgur.com/NBc0C4j.png",
+              title: "Java",
+              image: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
             },
             {
-              title: "Figma",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          items: [
-            {
-              title: "GitHub",
-              iconPack: "IconBrand",
+              title: "C++",
+              image: "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
             },
             {
-              title: "Firebase",
+              title: "Python",
+              image: "https://img.icons8.com/color/48/000000/python.png",
             },
             {
-              title: "Netlify",
-              iconPack: "IconBrand",
+              title: "Express.js",
+              image: "https://img.icons8.com/color/48/000000/nodejs.png",
+            },
+            {
+              title: "PostgreSQL",
+              image: "https://img.icons8.com/color/48/000000/postgreesql.png",
+            },
+            {
+              title: "MongoDB",
+              image: "https://img.icons8.com/color/48/000000/mongodb.png",
             },
           ],
         },
+        // {
+        //   title: "Apps",
+        //   items: [
+        //     {
+        //       title: "VS Code",
+        //       iconPack: "IconBrand",
+        //     },
+        //     {
+        //       title: "Postman",
+        //       image: "https://img.icons8.com/color/452/postman-api.png"
+        //     },
+        //     {
+        //       title: "Figma",
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: "Services",
+        //   items: [
+        //     {
+        //       title: "GitHub",
+        //       iconPack: "IconBrand",
+        //     },
+        //     {
+        //       title: "Firebase",
+        //     },
+        //     {
+        //       title: "Netlify",
+        //       iconPack: "IconBrand",
+        //     },
+        //   ],
+        // },
       ],
     }
   },
@@ -225,10 +246,16 @@ export default Vue.extend({
             class="flex items-center justify-center md:justify-start gap-x-3 gap-y-2 flex-wrap"
           >
             <Button
-              v-for="item in ['TypeScript', 'Vue.js', 'React.js']"
+              v-for="item in ['TypeScript', 'Java', 'React.js']"
               :key="item"
               class="inline-block"
             >
+            <img
+      v-if="item === 'Java'"
+      src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+      class="h-5 w-5"
+      alt="Java Icon"
+    />
               <IconDev :brand="item" class="h-5 w-5" />
             </Button>
 
@@ -351,7 +378,9 @@ export default Vue.extend({
             <CardSkill
               v-for="(skill, index) in category.items"
               :key="`skill-${index}`"
-              v-bind="typeof skill === 'object' ? skill : { title: skill }"
+              :title="typeof skill === 'object' ? skill.title : skill"
+              :image="typeof skill === 'object' ? skill.image : ''"
+              :iconPack="typeof skill === 'object' ? skill.iconPack : 'IconDev'"
             />
           </div>
         </section>
