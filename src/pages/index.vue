@@ -63,30 +63,17 @@ export default Vue.extend({
         ],
         education: [
           {
-            title: "Muş Alparslan University",
-            url: "http://alparslan.edu.tr/",
-            position: "English Language Teaching",
-            date: "2020-present",
+            title: "Concordia University",
+            url: "Concordia University",
+            position: "Bachelor of Engineering - Software Engineering",
+            date: "2021-Present",
           },
           {
-            title: "Goce Delchev University",
-            url: "https://www.ugd.edu.mk/",
-            position: "Erasmus+ Student",
-            date: "2021-2022",
-          },
-          {
-            title: "Rotosis Robotics",
-            url: "https://www.rotosis.com/",
-            position: "Intern",
-            date: "2017-2018",
-            isHidden: true,
-          },
-          {
-            title: "Adil Karaağaç MTAL",
-            url: "https://akatl.meb.k12.tr/",
-            position: "Automation Systems",
-            date: "2014-2018",
-          },
+            title: "Thamer International School",
+            url: "https://www.tis.edu.sa/",
+            position: "High School - IGCSE",
+            date: "2017-2021",
+          }
         ],
       } as ExperienceObject,
       cards: {
@@ -142,12 +129,19 @@ export default Vue.extend({
           title: "Development",
           items: [
             "TypeScript",
-            "Vue.js",
+            "JavaScript",
             "React.js",
             "HTML5",
             "Tailwind CSS",
             "Node.js",
             "Sass",
+            "Spring Boot",
+            "Java",
+            "C++",
+            "Python",
+            "Express.js",
+            "PostgreSQL",
+            "MongoDB"
           ],
         },
         {
@@ -216,14 +210,14 @@ export default Vue.extend({
             >
               Hi, I am
               <span class="text-black/90 dark:text-white/90"
-                >Abdulbaki Dursun</span
+                >Ahmad Elmahallawy</span
               >
             </h1>
 
             <h1
               class="font-semibold text-center text-4xl md:(text-6xl text-left) text-black/90 leading-normal dark:text-white/90"
             >
-              Full-stack web developer
+              Software Engineering Student
             </h1>
           </div>
 
@@ -250,7 +244,7 @@ export default Vue.extend({
 
       <div class="rounded-full mx-auto mb-4 md:mb-0">
         <SmartImage
-          src="/assets/images/picture.png"
+          src="/assets/images/picture.jpg"
           class="rounded-full h-50 w-50"
         />
       </div>
@@ -295,7 +289,7 @@ export default Vue.extend({
             class="text-black/50 text-sm hover:underline dark:text-white/30"
             @click="showExtra.jobs = !showExtra.jobs"
           >
-            {{ showExtra.jobs ? "show less" : "show more" }}
+            <!-- {{ showExtra.jobs ? "show less" : "show more" }} -->
           </button>
         </div>
 
@@ -321,7 +315,7 @@ export default Vue.extend({
             class="text-black/50 text-sm hover:underline dark:text-white/30"
             @click="showExtra.education = !showExtra.education"
           >
-            {{ showExtra.education ? "show less" : "show more" }}
+            <!-- {{ showExtra.education ? "show less" : "show more" }} -->
           </button>
         </div>
 
