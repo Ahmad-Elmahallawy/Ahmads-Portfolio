@@ -1,65 +1,40 @@
-<h1 align="center">eggsy.xyz</h1>
+# <a href="https://vinodjangid07.github.io/" target="_blank">My Portfolio</a>
+<p align="justify">This website displays my Projects, Web presence, Story, Work experience, and contact information.</p>
 
-<p align="center">
-  <img src="/demo.png" />
-</p>
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vinodjangid07.github.io/)
+[![Author](https://img.shields.io/badge/Author-Vinod%20Jangid-purple.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+<a href="https://github.com/vinodjangid07/vinodjangid07.github.io/blob/master/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
-<p align="center">
-  <img src="https://api.netlify.com/api/v1/badges/235c4935-39c2-4aef-9b79-f5b6c5686855/deploy-status" alt="Deploy status" />
+<img width="100%" alt="Portfolio Screenshot" src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/fd0d70b2-1505-4adf-8b0c-427df58607e3">
 
-  <img src="https://app.codacy.com/project/badge/Grade/ff917529015742d3a3c3eda2674162de" alt="Codacy code quality" />
-</p>
 
-My personal portfolio website, built with Nuxt.js, Windi CSS, TypeScript and Firebase.
+:star: Star me on GitHub — it helps!
 
-### ✨ Features
+# Sections 📚
 
-Website features many custom built systems, integrations and pages!
+✔️ Mini intro\
+✔️ About me \
+✔️ Skills\
+✔️ Projects\
+✔️ Contact me
 
-- ✅ Projects, experiences, skills, GitHub Repositories, favorite songs, contact pages.
-- ✅ Fully static markdown-driven blog with Nuxt Content.
-- ✅ Firebase integration.
-- ✅ Real-time Discord profile data using [Lanyard API](https://github.com/Phineas/lanyard/).
-- ✅ Last.fm API to display top tracks and recently played songs－[example](https://eggsy.xyz/me/songs).
-- ✅ Written in TypeScript.
-- ✅ Tons of handmade custom components.
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- ⚠️ Remove my Bitmoji <img src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/05e5b2d6-8b38-4cf9-a5a3-eb63e81aab1d" width="20px"> from the navbar and use yours instead.⚠️
+- Add or remove images from `https://www.vinodjangid.me/src/` directory as per your requirement.
+- Push the generated code to the `master` branch of this repository.
+- ⚠️<b>NOTE:</b> Make sure to remove `analyticsId` & `google search console Id` from `<head>` tag, and set yours, if you want to use your own Google Analytics & search console account.⚠️
 
-### 🔧 Getting Started
 
-You need to install [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/downloads) to your machine. Node.js comes with its own package manager called `npm`, you can either use that or you can use [`pnpm`](https://pnpm.io/installation) since it's faster and caches downloaded dependencies properly.
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
-- Clone the repository with `git clone https://github.com/eggsy/website`
-- Install dependencies with your preffered package manager.
-  - With pnpm: `pnpm install`
-  - With NPM: `npm install`
-- If you are going to use Firebase, you'll need to rename `.env.example` to `.env` and fill the config.
-  - **P.S.** You can use the website without the Fireabse integration as it requires a bunch of additional steps on its own. Read the title below for more information.
-- Start the app:
-  - For development:
-    - With pnpm: `pnpm dev`
-    - With NPM: `npm run dev`
-  - To build and compile:
-    - With pnpm: `pnpm generate` (or `pnpm build`)
-    - With NPM: `npm run generate` or (`npm run build`)
+## Tools Used 🛠️
+* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
+* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
 
-If you are wondering about **how to host it on free/paid static hosting services** like (Netlify, Vercel etc.), you can refer to [Nuxt.js docs](https://nuxtjs.org/deployments/netlify/). My project is hosted on [Netlify](https://netlify.com).
 
-### 🤔 Don't need Firebase?
-
-If you don't want to take the additional steps installing and configuring a Firebase account just to use the website, follow these steps:
-
-1. Remove `firebase` and `@nuxtjs/firebase` modules via your package manager.
-2. Remove `@nuxtjs/firebase` from `tsconfig.json`.
-3. Remove `firebase` import and the line of `@nuxtjs/firebase` reference in the array in `config/modules.ts` file.
-4. Remove `@/plugins/Firebase` reference from the plugins array in `config/plugins.ts` (remove the whole object), and delete that file from `plugins` directory, you don't need it anymore.
-5. Delete `config/modules/firebase.ts`.
-6. Delete the Daily page: `src/pages/daily.vue`.
-   - Delete existing links and references to this page as it might throw errors when building the app.
-
-### 💖 Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/eggsy">
-    <img src='https://cdn.jsdelivr.net/gh/eggsy/.github/sponsors.svg'/>
-  </a>
-</p>
+Please contact me at infovinodjangid@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
