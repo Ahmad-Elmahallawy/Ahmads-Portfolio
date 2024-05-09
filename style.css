@@ -1073,7 +1073,7 @@ footer {
 }
 .ProjectDescription {
   color: gray;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 .project-buttons {
@@ -1643,7 +1643,7 @@ footer {
 
 /* date */
 .experience-section ul li .date {
-  --dateH: 3rem;
+  --dateH: 3.7rem;
   height: var(--dateH);
   margin-inline: calc(var(--inlineP) * -1);
 
@@ -1731,6 +1731,15 @@ footer {
   bottom: 0.25rem;
 }
 
+.experience-section ul li .date {
+    font-size: 2.5rem !important;
+  }
+
+  .experience-section ul li .title,
+  .experience-section ul li .descr {
+    font-size: 2rem;
+  }
+
 @media (min-width: 40rem) {
   .experience-section ul {
     grid-template-columns: 1fr var(--line-w) 1fr;
@@ -1761,9 +1770,6 @@ footer {
   }
   .experience-section ul li:nth-child(odd) .date {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
-  }
-  .experience-section ul li .date {
-    font-size: 1.5rem !important;
   }
 }
 
@@ -1816,6 +1822,11 @@ footer {
   .project-boxes-div {
     padding: 40px 0;
   }
+
+  .experience-section ul li .date {
+    font-size: 2rem !important;
+  }
+
 }
 @media screen and (max-width: 500px) {
   html {
@@ -1868,6 +1879,10 @@ footer {
   .tech-stack-box {
     width: 100%;
     height: calc(76vw / 2);
+  }
+  
+  .project-box {
+    height: 650px;
   }
 }
 @media screen and (max-width: 430px) {
