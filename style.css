@@ -1387,6 +1387,7 @@ footer {
   }
   .projects-section-div,
   .skills-section,
+  .experience-section
   .text-content {
     width: 80%;
   }
@@ -1863,6 +1864,7 @@ footer {
   }
   .about-section,
   .projects-section-div,
+  .experience-section
   .skills-section {
     width: 80%;
   }
