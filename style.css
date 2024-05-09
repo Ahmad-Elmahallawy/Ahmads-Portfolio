@@ -1549,6 +1549,10 @@ footer {
     margin-top: 30px;
     gap: 30px;
   }
+  .experience-section {
+    width: 80%;
+  }
+
   .about-info {
     flex-direction: column;
   }
@@ -1564,7 +1568,8 @@ footer {
     left: -20px;
     border-radius: 50%;
   }
-  .projects-section-div {
+  .projects-section-div,
+  .experience-section {
     width: 80%;
   }
   .project-box {
@@ -1804,7 +1809,8 @@ footer {
     transform: translateY(200px);
     transition-duration: 1s;
   }
-  .projects-section-div {
+  .projects-section-div,
+  .experience-section {
     width: 80%;
   }
   .project-boxes-div {
@@ -1871,7 +1877,7 @@ footer {
   .about-section,
   .projects-section-div,
   .experience-section .skills-section {
-    width: 80%;
+    width: 80% !important;
   }
   .info-div {
     padding: 0 30px;
