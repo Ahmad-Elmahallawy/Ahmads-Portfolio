@@ -1387,8 +1387,7 @@ footer {
   }
   .projects-section-div,
   .skills-section,
-  .experience-section
-  .text-content {
+  .experience-section .text-content {
     width: 80%;
   }
   .about-section {
@@ -1630,7 +1629,11 @@ footer {
   grid-template-rows: min-content min-content min-content;
   color: var(--color-white);
   border: 1px solid var(--tech-stack-box-border-color);
-  background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+  background-image: linear-gradient(
+    to bottom right,
+    var(--tech-stack-box-first-color),
+    var(--tech-stack-box-second-color)
+  );
 }
 
 /* date */
@@ -1754,6 +1757,9 @@ footer {
   .experience-section ul li:nth-child(odd) .date {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
   }
+  .experience-section ul li .date {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1864,8 +1870,7 @@ footer {
   }
   .about-section,
   .projects-section-div,
-  .experience-section
-  .skills-section {
+  .experience-section .skills-section {
     width: 80%;
   }
   .info-div {
