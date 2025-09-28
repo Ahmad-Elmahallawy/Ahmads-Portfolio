@@ -1,1077 +1,688 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- 
-What are you doing here?! you sneaky developer...
--->
+<html lang="en" data-theme="auto">
 
-  <head>
-    <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-    <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-    <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-    <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-YMWDE0VTD3");
-    </script>
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <meta
-      name="google-site-verification"
-      content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc"
-    />
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-    <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#000" />
-    <meta
-      name="description"
-      content="Ahmad Elmahallawy | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions."
-    />
-    <meta
-      name="keywords"
-      content="Ahmad Elmahallawy,Ahmad Elmahallawy portfolio,Ahmad Elmahallawy Portfolio,AhmadElmahallawy,Ahmad Elmahallawy site,Ahmad Elmahallawy Site,Ahmad Elmahallawy me,Ahmad Elmahallawy web,Ahmad Elmahallawy github,AhmadElmahallawy site,AhmadElmahallawy uiverse,uiverse,Ahmad Elmahallawy uiverse,Ahmad Elmahallawy frontend developer,frontend developer,Ahmad Elmahallawy jaipur,Ahmad jaipur"
-    />
-    <meta name="author" content="Ahmad Elmahallawy" />
-    <meta
-      property="og:image"
-      content="https://www.AhmadElmahallawy.site/src/png/Preview-card-min.png"
-    />
-    <meta property="og:title" content="Ahmad Elmahallawy | Portfolio" />
-    <meta
-      property="og:description"
-      content="Hi! My name is Ahmad. I am a Software Engineering Student at Concordia University"
-    />
+    <title>Ahmad Elmahallawy — Freelance Software Developer</title>
+    <meta name="description"
+        content="Full-stack, frontend, and backend freelance software developer. React, TypeScript, .NET, Java, Spring Boot, Node.js, SQL/NoSQL. Based in Canada. Available for projects." />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23111'/><text x='50' y='62' font-size='64' text-anchor='middle' fill='%23fff'>A</text></svg>">
 
-    <meta property="og:url" content="https://ahmad-elmahallawy.me" />
-    <meta property="og:site_name" content="Ahmad Elmahallawy Portfolio" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ahmad Elmahallawy — Freelance Software Developer" />
+    <meta property="og:description"
+        content="Full-stack, frontend, and backend freelance developer. React • TypeScript • .NET • Java • Node.js • SQL/NoSQL." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ahmad-elmahallawy.github.io/Ahmads-Portfolio/" />
+    <meta property="og:image" content="images/og-preview.png" />
 
-    <meta
-      name="twitter:image:src"
-      content="https://www.AhmadElmahallawy.site/src/png/Preview-card-min.png"
-    />
-    <meta name="twitter:site" content="@Portfolio" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Ahmad Elmahallawy | Portfolio" />
-    <meta
-      name="twitter:description"
-      content="Hi! My name is Ahmad. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions."
-    />
-    <title>Ahmad Elmahallawy | Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="src/png/nav-avatar.png" />
-    <!-- aos cdn -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- google fonts-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps"
-    />
-  </head>
-  <body class="body">
-    <audio loop="" id="audioPlayer" style="display: none">
-      <source src="src/mp3/preloader.mp3" type="audio/mp3" />
-    </audio>
-    <div id="preloader"></div>
-    <noscript>Allow Javascript</noscript>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ahmad Elmahallawy — Freelance Software Developer" />
+    <meta name="twitter:description"
+        content="Full-stack, frontend, and backend freelance developer. React • TypeScript • .NET • Java • Node.js • SQL/NoSQL." />
 
-    <header>
-      <div class="cursor-inner" id="cursor-inner"></div>
-      <div class="cursor-outer" id="cursor-outer"></div>
+    <!-- Schema.org Person JSON-LD -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ahmad Elmahallawy",
+    "url": "https://ahmad-elmahallawy.github.io/Ahmads-Portfolio/",
+    "sameAs": [
+      "https://www.linkedin.com/in/Ahmad-Elmahallawy/",
+      "https://github.com/Ahmad-Elmahallawy"
+    ],
+    "knowsAbout": [
+      "React", "TypeScript", "JavaScript", ".NET", "C#", "Spring Boot", "Node.js", "Java", "SQL", "PostgreSQL", "MongoDB", "Docker", "AWS"
+    ],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Concordia University" },
+    "hasOccupation": { "@type": "Occupation", "name": "Software Developer", "skills": "Full-stack development, REST APIs, Microservices, Cloud, Databases" }
+  }
+  </script>
 
-      <div class="navbar" id="navbar">
-        <div class="hey">Hey!</div>
-        <div class="logo" tabindex="0" aria-label="Ahmad Elmahallawy logo">
-          <div class="logo-top">
-            <img
-              src="src/png/nav-avatar.png"
-              alt="animation-head"
-              id="nav-avatar"
-            />
-          </div>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="sr-only" href="#main">Skip to content</a>
+
+    <header role="banner">
+        <div class="container nav" aria-label="Primary">
+            <a href="#top" class="logo" aria-label="Homepage" title="Ahmad Elmahallawy">
+                <span class="sr-only">Ahmad Elmahallawy — Home</span>
+
+                <!-- Clean, pixel-snapped SVG monogram -->
+                <svg class="logo-badge" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                    <defs>
+                        <linearGradient id="ae-grad" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="var(--brand)" />
+                            <stop offset="1" stop-color="var(--brand-2)" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="0.5" y="0.5" width="31" height="31" rx="8" fill="url(#ae-grad)" stroke="var(--border)"
+                        stroke-opacity=".65" vector-effect="non-scaling-stroke" shape-rendering="geometricPrecision" />
+                    <text x="16" y="16" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="700"
+                        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Noto Sans', sans-serif"
+                        fill="#fff">AE</text>
+                </svg>
+
+                <span class="logo-text">.dev</span>
+            </a>
+
+            <nav class="links" aria-label="Main navigation" role="navigation">
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#cv">CV</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div style="display:flex; align-items:center; gap:10px">
+                <!-- Theme toggle: cycles Auto → Light → Dark -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" aria-live="polite">
+                    <span id="themeIcon" aria-hidden="true">🌗</span>
+                    <span id="themeLabel">Auto</span>
+                    <kbd>T</kbd>
+                </button>
+                <button class="btn menu-btn" aria-controls="mobileMenu" aria-expanded="false">Menu</button>
+            </div>
         </div>
-        <div class="navbar-tabs" id="navbar-tabs">
-          <ul class="navbar-tabs-ul">
-            <li
-              class="home activeThistab"
-              class="navbar-tabs-li"
-              data-aos="fade-down"
-              data-aos-delay="100"
-            >
-              <a href="#home" tabindex="0" aria-label="Home menu button">
-                &#60;/Home&#62;
-              </a>
-            </li>
 
-            <li
-              class="about"
-              class="navbar-tabs-li"
-              data-aos="fade-down"
-              data-aos-delay="300"
-            >
-              <a href="#about" aria-label="about menu button">
-                &#60;/AboutMe&#62;
-              </a>
-            </li>
-            <li
-              class="experience"
-              class="navbar-tabs-li"
-              data-aos="fade-down"
-              data-aos-delay="300"
-            >
-              <a href="#experience" aria-label="experience menu button">
-                &#60;/Experience&#62;
-              </a>
-            </li>
-            <li
-              class="skills"
-              class="navbar-tabs-li"
-              data-aos="fade-down"
-              data-aos-delay="500"
-            >
-              <a href="#skills" aria-label="skills menu button">
-                &#60;/Skills&#62;
-              </a>
-            </li>
-
-            <li
-              class="projects"
-              class="navbar-tabs-li"
-              data-aos="fade-down"
-              data-aos-delay="700"
-            >
-              <a href="#projects" aria-label="projects menu button">
-                &#60;/Projects&#62;
-              </a>
-            </li>
-          </ul>
+        <div id="mobileMenu" class="mobile-menu" role="navigation" aria-label="Mobile">
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
         </div>
-        <!-- navbar tabs ends -->
-      </div>
     </header>
-    <!-- header ends here -->
 
-    <main>
-      <!-- hamburger -->
-      <div class="hamburger" id="hamburger" data-aos="fade">
-        <div class="hamburgerbase">
-          <button
-            id="hamburger-button"
-            onclick="hamburgerMenu()"
-            tabindex="0"
-            aria-label="Menu Button"
-          >
-            <span class="burger-bar" id="burger-bar1"></span>
-            <span class="burger-bar" id="burger-bar2"></span>
-            <span class="burger-bar" id="burger-bar3"></span>
-          </button>
-        </div>
-      </div>
-      <!-- hamburger -->
-      <div class="mobiletogglemenu" id="mobiletogglemenu">
-        <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
-          <li
-            id="home-mobile-tab"
-            class="mobile-navbar-tabs-li home activeThismobiletab"
-            onclick="hidemenubyli()"
-          >
-            <a href="#home" tabindex="0" aria-label="Home menu button">
-              &#60;/Home&#62;
-            </a>
-          </li>
-
-          <li
-            id="aboutme-mobile-tab"
-            class="mobile-navbar-tabs-li about"
-            onclick="hidemenubyli()"
-          >
-            <a href="#about" tabindex="0" aria-label="about menu button">
-              &#60;/AboutMe&#62;
-            </a>
-          </li>
-          <li
-            id="experience-mobile-tab"
-            class="mobile-navbar-tabs-li about"
-            onclick="hidemenubyli()"
-          >
-            <a href="#experience" aria-label="experience menu button">
-              &#60;/Experience&#62;
-            </a>
-          </li>
-          <li
-            id="skills-mobile-tab"
-            class="mobile-navbar-tabs-li skills"
-            onclick="hidemenubyli()"
-          >
-            <a href="#skills" tabindex="0" aria-label="skills menu button">
-              &#60;/Skills&#62;
-            </a>
-          </li>
-          <li
-            id="projects-mobile-tab"
-            class="mobile-navbar-tabs-li projects"
-            onclick="hidemenubyli()"
-          >
-            <a href="#projects" tabindex="0" aria-label="projects menu button">
-              &#60;/Projects&#62;
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- mobile toggle menu ends -->
-
-      <section class="landing-page-container" id="home">
-        <div class="blob"></div>
-
-        <div class="text-content">
-          <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
-            <p class="jello">H</p>
-            <p class="jello">e</p>
-            <p class="jello">l</p>
-            <p class="jello">l</p>
-            <p class="jello">o</p>
-            <p class="jello">(</p>
-            <p class="jello">)</p>
-            <p class="jello">;</p>
-            &nbsp;
-            <p class="jello">I</p>
-            <p class="jello">'</p>
-            <p class="jello">m</p>
-          </article>
-          <article id="name" data-aos="fade-up" data-aos-delay="200">
-            <p class="jello">A</p>
-            <p class="jello">h</p>
-            <p class="jello">m</p>
-            <p class="jello">a</p>
-            <p class="jello">d</p>
-            &nbsp;
-            <p class="jello">E</p>
-            <p class="jello">l</p>
-            <p class="jello">m</p>
-            <p class="jello">a</p>
-            <p class="jello">h</p>
-            <p class="jello">a</p>
-            <p class="jello">l</p>
-            <p class="jello">l</p>
-            <p class="jello">a</p>
-            <p class="jello">w</p>
-            <p class="jello">y</p>
-          </article>
-
-          <article id="work" data-aos="fade-up" data-aos-delay="400">
-            <!-- <div>
-            <p class="jello">I</p>
-          </div>
-          <div>
-            <p class="jello">d</p>
-            <p class="jello">e</p>
-            <p class="jello">s</p>
-            <p class="jello">i</p>
-            <p class="jello">g</p>
-            <p class="jello">n</p>
-          </div>
-          <div>
-            <p class="jello">&</p>
-          </div>
-          <div>
-            <p class="jello">c</p>
-            <p class="jello">o</p>
-            <p class="jello">d</p>
-            <p class="jello">e</p>
-          </div>
-          <div>
-            <p class="jello">f</p>
-            <p class="jello">o</p>
-            <p class="jello">r</p>
-          </div>
-          <div>
-            <p class="jello">w</p>
-            <p class="jello">e</p>
-            <p class="jello">b</p>
-            <p class="jello">.</p>
-          </div> -->
-            <h6>
-              Software Engineering Student at Concordia University in Montreal
-            </h6>
-          </article>
-          <p id="info-para" data-aos="fade-up" data-aos-delay="600">
-            Software Developer with experience in DBMS and Fullstack Web
-            Appications. I Love fun Web UI, collaboration and making
-            products.<br />
-            <br />
-            I value simple content structure, clean design patterns, and
-            thoughtful interactions.
-          </p>
-          <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-            <a href="mailto:ahmad.mahallawy@gmail.com" tabindex="-1">
-              <button class="letsTalkBtn">
-                <p class="letsTalkBtn-text">Let's Talk!</p>
-                <span class="letsTalkBtn-BG"></span></button
-            ></a>
-            <div class="setting-container" id="setting-container">
-              <input
-                type="checkbox"
-                id="switchforsetting"
-                onclick="settingtoggle()"
-              />
-
-              <label
-                for="switchforsetting"
-                class="needtobeinvert"
-                id="labelforsetting"
-                tabindex="0"
-                aria-label="settings for sound and appearance"
-              ></label>
-
-              <div
-                class="visualmodetogglebuttoncontainer"
-                id="visualmodetogglebuttoncontainer"
-              >
-                <input
-                  type="checkbox"
-                  id="switchforvisualmode"
-                  onclick="visualmode()"
-                />
-                <label
-                  for="switchforvisualmode"
-                  id="labelforvisualmode"
-                  tabindex="0"
-                  aria-label="switch appearance"
-                ></label>
-              </div>
-
-              <div
-                class="soundtogglebuttoncontainer"
-                id="soundtogglebuttoncontainer"
-              >
-                <input
-                  type="checkbox"
-                  id="switchforsound"
-                  onclick="playpause()"
-                />
-                <label
-                  for="switchforsound"
-                  id="labelforsound"
-                  tabindex="0"
-                  aria-label="switch sound"
-                  class="needtobeinvert"
-                ></label>
-              </div>
+    <main id="main" role="main">
+        <!-- HERO (band 1) -->
+        <section class="hero container band band--1" id="top">
+            <h1>Hi, I’m <span>Ahmad Elmahallawy</span> — I build reliable, accessible web & mobile software that grows
+                your business.</h1>
+            <p class="muted">Full-stack, frontend, and backend. React • TypeScript • .NET • Java • Spring Boot • Node.js
+                • SQL/NoSQL • AWS • Docker.</p>
+            <div class="actions" role="group" aria-label="Primary actions">
+                <a class="btn" href="mailto:ahmad.mahallawy@gmail.com">Email me</a>
+                <a class="btn" href="https://github.com/Ahmad-Elmahallawy" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn" href="https://www.linkedin.com/in/Ahmad-Elmahallawy/" target="_blank"
+                    rel="noreferrer">LinkedIn</a>
             </div>
-            <!-- setting div ends -->
-          </div>
-          <!-- contact-btn-div -->
-        </div>
-      </section>
-      <!-- landing page ends here -->
-      <section class="about-section-container" id="about" data-aos="fade-up">
-        <div class="about-section">
-          <div class="section-heading">
-            <h2
-              class="section-heading-article"
-              tabindex="0"
-              aria-label="About me heading"
-            >
-              &#60;/AboutMe&#62;
-            </h2>
-            <p class="sectionHeadingP"></p>
-          </div>
+            <hr class="divider" aria-hidden="true">
+        </section>
 
-          <div class="info-dp-section">
-            <div class="about-info">
-              <p tabindex="0">
-                I am dedicated software engineering student with a deep passion
-                for coding and problem-solving. I thrive on taking on
-                challenging projects that push my technical skills to the next
-                level.
-              </p>
-              <br />
-              <p tabindex="0">
-                As I continue on this exciting journey, I'm committed to
-                continuous learning and growth. I'm eager to connect with fellow
-                tech enthusiasts, industry professionals, and potential
-                collaborators.
-              </p>
-              <br />
-              <p tabindex="0">
-                My main focus these days is to learn .NET and Docker.
-              </p>
-              <!-- Resume button -->
-              <button class="resume-btn" id="resume-btn" onclick="openURL()">
-                <div class="sign">
-                  <svg viewBox="0 0 640 512">
-                    <path
-                      d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"
-                    />
-                  </svg>
+        <!-- SERVICES (band 2) -->
+        <section id="services" class="band band--2" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="services-title"><span class="hash">#</span> Services</h2>
+                        <div class="section-kicker">From idea to production, end-to-end delivery.</div>
+                    </div>
                 </div>
-
-                <div class="text">Resume</div>
-              </button>
+                <div class="grid cols-3">
+                    <article class="card service" data-animate>
+                        <h3>Full-stack Delivery</h3>
+                        <p>Design → Deploy. REST APIs, microservices, responsive UI, CI/CD. I ship production-ready
+                            features end-to-end.</p>
+                        <div class="tags" aria-label="tech">
+                            <span class="chip">React</span><span class="chip">Next.js</span><span
+                                class="chip">Node.js</span><span class="chip">.NET</span><span
+                                class="chip">PostgreSQL</span>
+                        </div>
+                    </article>
+                    <article class="card service" data-animate>
+                        <h3>Frontend Engineering</h3>
+                        <p>Accessible UX with strong component systems and performance budgets. Type-safe state and
+                            tests.</p>
+                        <div class="tags"><span class="chip">HTML/CSS</span><span class="chip">TypeScript</span><span
+                                class="chip">JavaScript</span><span class="chip">React</span><span
+                                class="chip">Jest</span><span class="chip">MUI</span></div>
+                    </article>
+                    <article class="card service" data-animate>
+                        <h3>Backend & APIs</h3>
+                        <p>Resilient services, data modeling, and integrations. Authentication, RBAC, and observability
+                            baked-in.</p>
+                        <div class="tags"><span class="chip">ASP.NET Core</span><span class="chip">Spring
+                                Boot</span><span class="chip">Express</span><span class="chip">SQL</span><span
+                                class="chip">MongoDB</span></div>
+                    </article>
+                </div>
             </div>
+        </section>
 
-            <div class="dp" data-aos="fade-up">
-              <img
-                src="src/jpg/pfp.jpg"
-                alt="Ahmad Elmahallawy"
-                tabindex="0"
-                aria-label="image of Ahmad"
-              />
+        <!-- SKILLS (band 3) -->
+        <section id="skills" class="band" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="skills-title"><span class="hash">#</span> Technical Skills</h2>
+                        <div class="section-kicker">Tooling I’m productive with today.</div>
+                    </div>
+                </div>
+                <div class="grid cols-3">
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Languages</h3>
+                        <p class="muted">Java, Python, C/C++, C#, JavaScript, TypeScript, PHP</p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Frameworks</h3>
+                        <p class="muted">React, Next.js, Spring Boot, ASP.NET Core, Express, Bootstrap, Tailwind</p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Databases</h3>
+                        <p class="muted">PostgreSQL, MySQL, SQL Server, MongoDB, Neo4j</p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Cloud & Tools</h3>
+                        <p class="muted">Git, Docker, Linux, AWS CodeCommit, GitHub, Postman, Figma, Notion, Jira,
+                            Trello</p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Testing</h3>
+                        <p class="muted">JUnit, Jest</p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Languages</h3>
+                        <p class="muted">English, French</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- about section ends  -->
+        </section>
 
-      <section
-        class="experience-section-container"
-        id="experience"
-        data-aos="fade-up"
-      >
-        <div class="experience-section">
-          <div class="section-heading">
-            <h2
-              class="section-heading-article"
-              tabindex="0"
-              aria-label="experience heading"
-            >
-              &#60;/Experience&#62;
-            </h2>
-            <p class="sectionHeadingP"></p>
-          </div>
-
-          <ul>
-            <li style="--accent-color: #41516c">
-              <div class="date">Sep. 2022 - Sep. 2023</div>
-              <div class="title">
-                SCS -Software Engineering and Computer Science Society
-              </div>
-              <div class="descr">
-                ✨Volunteered as VP Careers (Sep. 2022 to April 2023) Where I
-                helped students prepare for interviews by doing mock interviews
-                as well as collaboratively solving leetcode problems.<br />
-                ✨ volunteered as VP of Technology (April - Sep. 2023) Where I
-                helped build SCS's Website
-              </div>
-            </li>
-            <li style="--accent-color: #fbca3e">
-              <div class="date">Jan. - Aug. 2023</div>
-              <div class="title">
-                Software Developer Intern at Bombardier Inc.
-              </div>
-              <div class="descr">
-                ✨ Worked on a web application for the management of
-                Bombardier's business jets by contributing to multiple UI.
-                <br />
-                ✨ Successfully resolved numerous bugs during the internship,
-                leading to noticeable improvements in the overall efficiency and
-                performance of the platform
-              </div>
-            </li>
-            <li style="--accent-color: #e24a68">
-              <div class="date">April 2023 - Present</div>
-              <div class="title">Director of Technology at HackConcordia</div>
-              <div class="descr">
-                ✨ In charge of HackConcordia's official website and building
-                ConUHacks website for the upcoming Hackathon to allow users to
-                register and create a team. <br />
-                ✨ Helping other members of the team to arrange events and
-                prepare for the hackathon.
-              </div>
-            </li>
-            <li style="--accent-color: #1b5f8c">
-              <div class="date">Sep. - Dec. 2023</div>
-              <div class="title">
-                Teaching Assistant for OOP and DSA in Java
-              </div>
-              <div class="descr">
-                ✨ Conducting weekly support sessions for a group of 200
-                students, demonstrating their effectiveness in addressing
-                course-related questions and assignment challenges <br />
-                ✨ Collaborating closely with professors to mark assignments and
-                examinations, particularly those involving Java
-              </div>
-            </li>
-            <li style="--accent-color: #4cadad">
-              <div class="date">May 2024 - Present</div>
-              <div class="title">Software Developer Intern at Fujitsu</div>
-              <div class="descr">
-                ✨ Designed and implemented comprehensive RESTful APIs to
-                enhance enterprise web applications, focusing on critical
-                functionalities such as user notifications and maintenance,
-                improving overall system communication and efficiency <br />
-                ✨ Collaborated within a microservices architecture to deliver
-                scalable and efficient solutions, ensuring seamless integration
-                and robust performance across various services
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--Experience ends here-->
-
-      <section class="skills-section-container" id="skills">
-        <div class="skills-section">
-          <div class="section-heading" data-aos="fade-up">
-            <h2
-              class="section-heading-article"
-              tabindex="0"
-              aria-label="skills heading"
-            >
-              &#60;/Skills&#62;
-            </h2>
-            <p class="sectionHeadingP"></p>
-          </div>
-
-          <div class="frontend-dev-section">
-            <h3
-              class="frontend-dev-heading"
-              data-aos="fade-up"
-              tabindex="0"
-              aria-label="As a frontend a developer these are the skills i have"
-            >
-              Tech Stack
-            </h3>
-            <ul class="tech-stack-wrapper">
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                  alt="Java skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">Java</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/cpplogo.png"
-                  alt="c++ language skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">C++</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                  alt="Python skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">Python</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/htmllogo.png"
-                  alt="Html skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">HTML</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/csslogo.png"
-                  alt="css skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">CSS</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/jslogo.png"
-                  alt="js skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">JavaScript</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-                  alt="Typescript skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">TypeScript</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/bootstraplogo.png"
-                  alt="bootstrap skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">BOOTSTRAP</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                  alt="tailwind skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">Tailwind CSS</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/reactlogo.png"
-                  alt="react skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">REACT</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                  alt="NodeJS skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">NodeJS</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-                  alt="Spring Boot skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">Spring Boot</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-                  alt="postgresql skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">PostgreSQL</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original.svg"
-                  alt="neo4j skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">Neo4j</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-                  alt="MongoDB skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">MongoDB</span>
-              </li>
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/githublogo.png"
-                  alt="github skill"
-                  class="tech-stack-logo needtobeinvert"
-                />
-                <span class="tooltip">GITHUB</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/gitlogo.png"
-                  alt="git skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">GIT</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/figmalogo.png"
-                  alt="figma skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">FIGMA</span>
-              </li>
-
-              <li class="tech-stack-box" data-aos="fade-up">
-                <img
-                  src="./src/png/canvalogo.png"
-                  alt="canva skill"
-                  class="tech-stack-logo"
-                />
-                <span class="tooltip">CANVA</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- skills section ends -->
-      <section class="projects-section-container" id="projects">
-        <div class="projects-section-div">
-          <div class="section-heading" data-aos="fade-up">
-            <h2
-              class="section-heading-article"
-              tabindex="0"
-              aria-label="My projects starts from here"
-            >
-              &#60;/Projects&#62;
-            </h2>
-            <p class="sectionHeadingP"></p>
-          </div>
-          <div class="project-boxes-div">
-            <div data-aos="fade-up" class="project-box-wrapper">
-              <div class="project-box project-box2" id="project-box2">
-                <div class="info-div">
-                  <article class="ProjectHeading">iCondo</article>
-                  <p class="ProjectDescription">
-                    A complete software solution for efficient condominium
-                    management, featuring user profiles, property and financial
-                    management, reservation systems, role-based access, and
-                    community engagement tools to enhance the experience for
-                    owners, renters, and management companies.
-                  </p>
-                  <div class="project-buttons">
-                    <a
-                      href="https://github.com/Ahmad-Elmahallawy/iCondo"
-                      target="_blank"
-                      class="github-redirect"
-                      aria-label="Visit iCondo on GitHub"
-                    >
-                      <img
-                        src="src/svg/github.svg"
-                        alt="github redirect button"
-                      />
-                    </a>
-                    <a
-                      href="https://www.youtube.com/watch?v=rFu35ZaLNT4"
-                      target="_blank"
-                      class="cta"
-                      aria-label="Visit iCondo Demo"
-                    >
-                      <span>View Demo</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-                  </div>
+        <!-- EXPERIENCE (band 2) -->
+        <section id="experience" class="band band--2" aria-labelledby="exp-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="exp-title"><span class="hash">#</span> Experience</h2>
+                        <div class="section-kicker">Impactful contributions in industry and academia.</div>
+                    </div>
                 </div>
-                <div class="image-div">
-                  <img
-                    src="src/png/iCondo.png"
-                    alt="iCondo website preview image"
-                  />
+                <div class="timeline">
+                    <article class="t-item" data-animate>
+                        <h3>Cybersecurity Analyst — Intact Financial Corporation</h3>
+                        <div class="meta">Jun 2025 – Present · Toronto, ON</div>
+                        <p class="muted">Vendor risk assessments aligned to NIST/ISO, supply-chain risk with BitSight &
+                            Recorded Future, and onboarding governance with cross-functional teams.</p>
+                    </article>
+                    <article class="t-item" data-animate>
+                        <h3>Software Developer Intern — Fujitsu</h3>
+                        <div class="meta">May 2024 – Apr 2025 · Montreal, QC</div>
+                        <p class="muted">Delivered REST APIs across microservices; improved DB upgrade scripts; stack:
+                            React, TypeScript, Redux, ASP.NET Core, C#, SQL Server.</p>
+                    </article>
+                    <article class="t-item" data-animate>
+                        <h3>Teaching Assistant — OOP & DSA (Concordia)</h3>
+                        <div class="meta">Sep – Dec 2023 · Montreal, QC</div>
+                        <p class="muted">Led weekly support for 200+ students, collaborated on grading (Java) ensuring
+                            consistency.</p>
+                    </article>
+                    <article class="t-item" data-animate>
+                        <h3>Software Developer Intern — Bombardier (with GE & Randstad)</h3>
+                        <div class="meta">Jan – Aug 2023 · Dorval, QC</div>
+                        <p class="muted">Built App Marketplace for business jet platform; fixed platform bugs; stack:
+                            React, TS, MUI, AWS, Vite, Jest.</p>
+                    </article>
                 </div>
-              </div>
             </div>
+        </section>
 
-            <div class="project-box-wrapper" data-aos="fade-up">
-              <div class="project-box project-box5" id="project-box5">
-                <div class="info-div">
-                  <article class="ProjectHeading">XChange</article>
-                  <p class="ProjectDescription">
-                    A web application designed to address the difficulty people
-                    face in finding affordable and convenient ways to learn new
-                    skills or improve existing ones. It provides users with a
-                    platform where they can easily connect with others willing
-                    to teach and learn a wide range of skills, fostering a
-                    community of mutual learning and skill development.
-                  </p>
-                  <div class="project-buttons">
-                    <a
-                      href="https://github.com/Ahmad-Elmahallawy/XChange"
-                      target="_blank"
-                      class="github-redirect"
-                      aria-label="Visit XChange on GitHub"
-                    >
-                      <img
-                        src="src/svg/github.svg"
-                        alt="github redirect button"
-                      />
-                    </a>
-                    <a
-                      href="https://www.youtube.com/watch?v=ithmmjQm9iQ"
-                      target="_blank"
-                      class="cta"
-                      aria-label="Visit XChange Demo"
-                    >
-                      <span>View Demo</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-                  </div>
+        <!-- PROJECTS (band 1) -->
+        <section id="projects" class="band band--1" aria-labelledby="proj-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="proj-title"><span class="hash">#</span> Selected Projects</h2>
+                        <div class="section-kicker">A few things I’ve shipped or led.</div>
+                    </div>
                 </div>
-                <div class="image-div">
-                  <img
-                    src="src/png/XChange.png"
-                    alt="XChange website preview image"
-                  />
-                </div>
-              </div>
-            </div>
 
-            <!-- ---------------------- -->
-            <div class="project-box-wrapper" data-aos="fade-up">
-              <div class="project-box project-box2" id="project-box2">
-                <div class="info-div">
-                  <article class="ProjectHeading">HomiTech</article>
-                  <p class="ProjectDescription">
-                    HomiTech offers researchers, students, and practitioners can
-                    use this simulator to experiment with deploying virtual
-                    smart home modules, observe their interactions with virtual
-                    tenants, and develop strategies to optimize smart home
-                    environments.
-                  </p>
-                  <div class="project-buttons">
-                    <a
-                      href="https://github.com/LiamDaigle/SOEN343"
-                      target="_blank"
-                      class="github-redirect"
-                      aria-label="Visit HomiTech on GitHub"
-                    >
-                      <img
-                        src="src/svg/github.svg"
-                        alt="github redirect button"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="image-div">
-                  <img
-                    src="src/png/HomiTech.png"
-                    alt="HomiTech website preview image"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- ---------------------- -->
-            <div class="project-box-wrapper" data-aos="fade-up">
-              <div class="project-box project-box4" id="project-box4">
-                <div class="info-div">
-                  <article class="ProjectHeading">ConUHacks VIII</article>
-                  <p class="ProjectDescription">
-                    dynamic website for the university's next hackathon, which
-                    is Quebec's biggest hackathon, creating a robust platform.
-                  </p>
-                  <div class="project-buttons">
-                    <a
-                      href="https://conuhacks.io/"
-                      target="_blank"
-                      class="cta"
-                      aria-label="Visit ConUHacks VIII live"
-                    >
-                      <span>Live view</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="image-div">
-                  <img
-                    src="src/png/ConUHacks.png"
-                    alt="ConUHacks website preview image"
-                  />
-                </div>
-              </div>
-            </div>
+                <div class="grid cols-3">
 
-            <!-- ---------------------- -->
-            <div class="project-box-wrapper" data-aos="fade-up">
-              <div class="project-box project-box3" id="project-box3">
-                <div class="info-div">
-                  <article class="ProjectHeading">Brilliant AI SaaS</article>
-                  <p class="ProjectDescription">
-                    A web application with authentication, Conversation, Image,
-                    Code, Video and Music Generation using OpenAI (ChatGPT's
-                    creator) and Replicate AI APIs as well as a chat bot.
-                  </p>
-                  <div class="project-buttons">
-                    <a
-                      href="https://github.com/Ahmad-Elmahallawy/Brilliant-AI"
-                      target="_blank"
-                      class="github-redirect"
-                      aria-label="Visit Netflix clone on GitHub"
-                    >
-                      <img
-                        src="src/svg/github.svg"
-                        alt="github redirect button"
-                      />
-                    </a>
-                    <a
-                      href="https://maven-ai-saas.vercel.app/"
-                      target="_blank"
-                      class="cta"
-                      aria-label="Visit Brilliant AI live"
-                    >
-                      <span>Live view</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="image-div">
-                  <img
-                    src="src/png/Brilliant.png"
-                    alt="Brilliant AI website preview image"
-                  />
-                </div>
-              </div>
-            </div>
+                    <!-- Parklive -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="Parklive Mobile Parking App thumbnail">
+                            <img class="thumb-img" alt="Parklive thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%236ee7ff'/>
+                           <stop offset='1' stop-color='%238b5cf6'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='18' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>Parklive</text>
+                     </svg>">
+                        </div>
+                        <h3>Parklive Mobile Parking App</h3>
+                        <p class="muted">AI-powered sign analysis, real-time maps, reminders, and commute planning.
+                            React Native, Expo, .NET 8, Google Cloud.</p>
+                        <div class="links">
+                            <a class="btn" href="#contact">Discuss</a>
+                        </div>
+                    </article>
 
-            <!-- ---------------------- -->
-          </div>
-        </div>
-      </section>
+                    <!-- Privacy Policy Analyzer -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="Privacy Policy Analyzer thumbnail">
+                            <img class="thumb-img" alt="Privacy Policy Analyzer thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%238b5cf6'/>
+                           <stop offset='1' stop-color='%236ee7ff'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='14' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>Privacy Analyzer</text>
+                     </svg>">
+                        </div>
+                        <h3>Privacy Policy Analyzer (Chrome Extension)</h3>
+                        <p class="muted">Automated privacy policy scoring with visual reports. React, Vite, GroqCloud.
+                        </p>
+                        <div class="links">
+                            <a class="btn"
+                                href="https://github.com/Ahmad-Elmahallawy/Privacy-Right-and-Consumer-Protection-Extension"
+                                target="_blank" rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Condo Management System (has demo) -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="Condo Management System thumbnail">
+                            <img class="thumb-img" alt="Condo Management System thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%236ee7ff'/>
+                           <stop offset='1' stop-color='%238b5cf6'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='14' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>Condo Manager</text>
+                     </svg>">
+                        </div>
+                        <h3>Condo Management System (Web & Mobile)</h3>
+                        <p class="muted">Led 10-person team building profiles, finances, reservations, and requests.
+                            TypeScript, React, NestJS, PostgreSQL, Expo.</p>
+                        <div class="links">
+                            <a class="btn" href="https://github.com/Ahmad-Elmahallawy/iCondo" target="_blank"
+                                rel="noreferrer">Code</a>
+                            <a class="btn" href="https://www.youtube.com/watch?v=rFu35ZaLNT4" target="_blank"
+                                rel="noreferrer">Demo</a>
+                        </div>
+                    </article>
+
+                    <!-- XChange (has demo) -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="XChange thumbnail">
+                            <img class="thumb-img" alt="XChange thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%238b5cf6'/>
+                           <stop offset='1' stop-color='%236ee7ff'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='16' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>XChange</text>
+                     </svg>">
+                        </div>
+                        <h3>XChange — Skill Exchange Platform</h3>
+                        <p class="muted">Team lead for affordable skill exchange app. MERN stack.</p>
+                        <div class="links">
+                            <a class="btn" href="https://github.com/Ahmad-Elmahallawy/XChange" target="_blank"
+                                rel="noreferrer">Code</a>
+                            <a class="btn" href="https://github.com/Ahmad-Elmahallawy/XChange?tab=readme-ov-file#demo"
+                                target="_blank" rel="noreferrer">Demo</a>
+                        </div>
+                    </article>
+
+                    <!-- Smart Home Simulator -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="Smart Home Simulator thumbnail">
+                            <img class="thumb-img" alt="Smart Home Simulator thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%236ee7ff'/>
+                           <stop offset='1' stop-color='%238b5cf6'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='13' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>Smart Home</text>
+                     </svg>">
+                        </div>
+                        <h3>Smart Home Simulator (Web)</h3>
+                        <p class="muted">Implemented Command, Observer, Singleton patterns. TypeScript, React, Spring
+                            Boot, PostgreSQL.</p>
+                        <div class="links">
+                            <a class="btn" href="https://github.com/LiamDaigle/SOEN343" target="_blank"
+                                rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Brilliance AI -->
+                    <article class="project" data-animate>
+                        <div class="thumb thumb--fx" role="img" aria-label="Brilliance AI thumbnail">
+                            <img class="thumb-img" alt="Brilliance AI thumbnail" src="data:image/svg+xml;utf8,
+                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90' preserveAspectRatio='none'>
+                       <defs>
+                         <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                           <stop offset='0' stop-color='%238b5cf6'/>
+                           <stop offset='1' stop-color='%236ee7ff'/>
+                         </linearGradient>
+                       </defs>
+                       <rect width='160' height='90' fill='url(%23g)'/>
+                       <text x='50%25' y='55%25' text-anchor='middle' font-size='15' font-family='Segoe UI, Arial, sans-serif' fill='%23ffffff'>Brilliance AI</text>
+                     </svg>">
+                        </div>
+                        <h3>Brilliance AI — SaaS App</h3>
+                        <p class="muted">Auth + multimodal AI (chat, image, code, video, music). Free tier + Stripe
+                            premium. Next.js, Prisma, Clerk.</p>
+                        <div class="links">
+                            <a class="btn" href="https://github.com/Ahmad-Elmahallawy/Brilliant-AI" target="_blank"
+                                rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION (band 3) -->
+        <section id="education" class="band" aria-labelledby="edu-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="edu-title"><span class="hash">#</span> Education & Awards</h2>
+                        <div class="section-kicker">Strong foundations and leadership.</div>
+                    </div>
+                </div>
+                <div class="grid cols-2">
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Concordia University — B.Eng. Software Engineering (Co-op)</h3>
+                        <p class="muted">2021–2025 · Graduated with Great Distinction (GPA 4.19/4.3). Dean’s List
+                            2021–2025. International Entrance Scholarship & Hybrid Workforce Achievement Scholarship.
+                        </p>
+                    </div>
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Leadership</h3>
+                        <p class="muted">HackConcordia (Director of Technology), Egyptian Student Association (VP
+                            Finance), SCS (VP Careers & Tech), Concordia Open House Communications Volunteer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV & SECURITY (band 2) -->
+        <section id="cv" class="band band--2" aria-labelledby="cv-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="cv-title"><span class="hash">#</span> CV & Security</h2>
+                        <div class="section-kicker">Protecting sensitive information while staying responsive.</div>
+                    </div>
+                </div>
+
+                <div class="grid cols-2">
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>CV available upon request</h3>
+                        <p class="muted">
+                            To reduce unauthorized reuse and protect personal details, my full CV is shared on request
+                            only.
+                            Please reach out with a brief note about your role and the opportunity, and I’ll send a copy
+                            promptly.
+                        </p>
+                        <div class="tags" style="margin-top:10px">
+                            <a class="chip"
+                                href="mailto:ahmad.mahallawy@gmail.com?subject=Requesting%20CV&body=Hi%20Ahmad%2C%0A%0AI'd%20like%20to%20review%20your%20CV%20for%20%5Brole%20or%20project%5D.%0A%0AThanks!">
+                                📄 Request CV by email
+                            </a>
+                            <a class="chip" href="https://www.linkedin.com/in/Ahmad-Elmahallawy/" target="_blank"
+                                rel="noreferrer">
+                                🔗 Connect on LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>What’s included</h3>
+                        <p class="muted">
+                            The CV includes role details, scope, impact, and verified achievements not listed publicly.
+                            References available for verified opportunities.
+                        </p>
+                        <ul class="muted" style="margin:0.75rem 0 0 1rem;">
+                            <li>Work history & responsibilities</li>
+                            <li>Key results & metrics</li>
+                            <li>Selected credentials & awards</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT (band 2) -->
+        <section id="contact" class="band band--2" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-title">
+                    <div>
+                        <h2 id="contact-title"><span class="hash">#</span> Contact</h2>
+                        <div class="section-kicker">Let’s scope your project and timelines.</div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="card" style="padding:20px" data-animate>
+                        <h3>Let’s build something great</h3>
+                        <p class="muted">Email <a href="mailto:ahmad.mahallawy@gmail.com">ahmad.mahallawy@gmail.com</a>.
+                            Based in Canada; available remotely and onsite.</p>
+                        <div class="tags" style="margin-top:10px">
+                            <a class="chip" href="mailto:ahmad.mahallawy@gmail.com">📧 Email</a>
+                            <a class="chip" href="https://www.linkedin.com/in/Ahmad-Elmahallawy/" target="_blank"
+                                rel="noreferrer">🔗 LinkedIn</a>
+                            <a class="chip" href="https://github.com/Ahmad-Elmahallawy" target="_blank"
+                                rel="noreferrer">💻 GitHub</a>
+                        </div>
+                    </div>
+                    <form class="card" style="padding:20px" onsubmit="sendMail(event)" aria-label="Quick contact form"
+                        data-animate>
+                        <label class="sr-only" for="name">Name</label>
+                        <input id="name" name="name" placeholder="Your name" required>
+                        <label class="sr-only" for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="you@company.com" required>
+                        <label class="sr-only" for="msg">Message</label>
+                        <textarea id="msg" name="message" placeholder="Tell me about your project…" required></textarea>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                        <p id="formStatus" class="muted" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-    <!-- main ends here -->
 
-    <footer id="footer">
-      <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
-        <article aria-label="Back to top">&#8592;BACK TO TOP</article>
-      </button>
-      <div class="footer-background">
-        <div class="footer-blob"></div>
-      </div>
-      <div class="footer-foreground">
-        <div class="footercontainer">
-          <div class="two-words">
-            <article
-              tabindex="0"
-              aria-label="Learning, Living, and Leveling Up, my quote"
-            >
-              "Learning, Living, and Leveling Up."
-            </article>
-          </div>
-          <div class="social-media-container">
-            <div class="getintouch-heading">
-              <article>GetinTouch();</article>
+    <footer class="container" role="contentinfo">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+            <p>© <span id="year"></span> Ahmad Elmahallawy. All rights reserved.</p>
+            <div class="tags">
+                <a class="chip" href="#top">Back to top ↑</a>
             </div>
-            <div class="logos">
-              <a
-                href="https://www.instagram.com/ahmadtamer_03/?igsh=MWR3djI0a3czMGlnNA%3D%3D&utm_source=qr"
-                target="_blank"
-                tabindex="0"
-                aria-label="My instagram"
-                ><svg viewBox="0 0 448 512" class="SocialHandle">
-                  <path
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  /></svg
-              ></a>
-
-              <a
-                href="https://www.linkedin.com/in/Ahmad-Elmahallawy/"
-                target="_blank"
-                aria-label="My Linkdin"
-                ><svg class="SocialHandle" viewBox="0 0 448 512">
-                  <path
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                  /></svg
-              ></a>
-
-              <a
-                href="https://github.com/Ahmad-Elmahallawy"
-                target="_blank"
-                aria-label="My github"
-                ><svg viewBox="0 0 496 512" class="SocialHandle">
-                  <path
-                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                  /></svg
-              ></a>
-
-              <a
-                href="mailto:ahmad.mahallawy@gmail.com"
-                target="_blank"
-                aria-label="My G mail"
-                ><svg id="GmailLogo" viewBox="0 0 512 512">
-                  <path
-                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
-                  /></svg
-              ></a>
-            </div>
-          </div>
-          <!-- <div class="footer-avatar-container">
-            <img
-              src="src/png/footer-avatar-Vinod.png"
-              alt="animation-head"
-              class="footer-avatar-img"
-              id="footer-wala-avatar"
-            />
-            <div class="footer-avatar-face">
-              <div class="footer-avatar-eye footer-left-eye">
-                <div class="footer-pupil"></div>
-              </div>
-              <div class="footer-avatar-eye footer-right-eye">
-                <div class="footer-pupil"></div>
-              </div>
-            </div>
-          </div> -->
         </div>
-      </div>
     </footer>
-    <!-- footer ends here -->
-
-    <script src="main.js"></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
 
     <script>
-      function openURL() {
-        var url = "src/pdf/Ahmad_Elmahallawy_Resume_COOP.pdf";
+        // -----------------------------
+        // Theme handling (Auto / Light / Dark)
+        // -----------------------------
+        const root = document.documentElement;
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeLabel = document.getElementById('themeLabel');
 
-        window.open(url, "_blank");
-      }
-    </script>
+        const THEME_KEY = 'ae-theme';
+        const order = ['auto', 'light', 'dark'];
 
-    <script>
-      const cursorInner = document.getElementById("cursor-inner");
-      const cursorOuter = document.getElementById("cursor-outer");
-      const links = document.querySelectorAll("a,label,button");
+        function systemPrefersLight() {
+            return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        }
+        function applyTheme(mode) {
+            root.setAttribute('data-theme', mode);
+            if (mode === 'auto') {
+                root.setAttribute('data-prefers-color', systemPrefersLight() ? 'light' : 'dark');
+            } else {
+                root.removeAttribute('data-prefers-color');
+            }
+            if (mode === 'auto') { themeIcon.textContent = '🌗'; themeLabel.textContent = 'Auto'; }
+            if (mode === 'light') { themeIcon.textContent = '🌞'; themeLabel.textContent = 'Light'; }
+            if (mode === 'dark') { themeIcon.textContent = '🌙'; themeLabel.textContent = 'Dark'; }
+        }
+        function nextMode(cur) { return order[(order.indexOf(cur) + 1) % order.length]; }
 
-      document.addEventListener("mousemove", function (e) {
-        const posX = e.clientX;
-        const posY = e.clientY;
+        const saved = localStorage.getItem(THEME_KEY) || 'auto';
+        applyTheme(saved);
 
-        cursorInner.style.left = `${posX}px`;
-        cursorInner.style.top = `${posY}px`;
-
-        // cursorOuter.style.left = `${posX}px`;
-        // cursorOuter.style.top = `${posY}px`;
-
-        cursorOuter.animate(
-          {
-            left: `${posX}px`,
-            top: `${posY}px`,
-          },
-          { duration: 500, fill: "forwards" }
-        );
-
-        links.forEach((link) => {
-          link.addEventListener("mouseenter", () => {
-            cursorInner.classList.add("hover");
-            cursorOuter.classList.add("hover");
-          });
-          link.addEventListener("mouseleave", () => {
-            cursorInner.classList.remove("hover");
-            cursorOuter.classList.remove("hover");
-          });
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme') || 'auto';
+            const next = nextMode(current);
+            localStorage.setItem(THEME_KEY, next);
+            applyTheme(next);
         });
-      });
+
+        // Keyboard shortcut: press "T" to toggle theme (ignore while typing)
+        window.addEventListener('keydown', (e) => {
+            if (e.defaultPrevented || e.isComposing) return;
+            if (e.altKey || e.metaKey || e.ctrlKey) return;
+            const el = e.target;
+            const tag = el && el.tagName ? el.tagName.toUpperCase() : "";
+            const typing =
+                (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') ||
+                (el && el.isContentEditable) ||
+                (el && el.getAttribute && el.getAttribute('role') === 'textbox');
+
+            if (typing) return;
+            if (e.key && e.key.toLowerCase() === 't') {
+                themeToggle.click();
+            }
+        });
+
+        // Keep "auto" in sync with system changes
+        if (window.matchMedia) {
+            const mq = window.matchMedia('(prefers-color-scheme: light)');
+            mq.addEventListener?.('change', () => {
+                if ((localStorage.getItem(THEME_KEY) || 'auto') === 'auto') {
+                    applyTheme('auto');
+                }
+            });
+        }
+
+        // -----------------------------
+        // Mobile menu
+        // -----------------------------
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if (menuBtn) {
+            menuBtn.addEventListener('click', () => {
+                const open = mobileMenu.classList.toggle('open');
+                menuBtn.setAttribute('aria-expanded', String(open));
+            });
+        }
+
+        // -----------------------------
+        // Year
+        // -----------------------------
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // -----------------------------
+        // Scroll reveal
+        // -----------------------------
+        const io = ('IntersectionObserver' in window) ? new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+        }, { threshold: 0.12 }) : null;
+        if (io) { document.querySelectorAll('[data-animate]').forEach(el => io.observe(el)); }
+
+        // -----------------------------
+        // Active section highlighting (nav glow)
+        // -----------------------------
+        const sections = document.querySelectorAll("main section[id]");
+        const navLinks = document.querySelectorAll(".nav .links a, #mobileMenu a");
+
+        const setActive = (id) => {
+            navLinks.forEach(link => {
+                const isActive = link.getAttribute("href") === `#${id}`;
+                link.classList.toggle("active", isActive);
+            });
+        };
+
+        const activeObserver = ('IntersectionObserver' in window) ? new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) setActive(entry.target.id);
+                });
+            },
+            { rootMargin: "0px 0px -35% 0px", threshold: 0.55 }
+        ) : null;
+        if (activeObserver) sections.forEach(sec => activeObserver.observe(sec));
+
+        window.addEventListener("hashchange", () => {
+            const id = location.hash.replace("#", "");
+            if (id) setActive(id);
+        });
+        window.addEventListener("load", () => {
+            const id = location.hash.replace("#", "") || "top";
+            setActive(id);
+        });
+
+        // -----------------------------
+        // Form (mailto fallback)
+        // -----------------------------
+        function sendMail(ev) {
+            ev.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const msg = document.getElementById('msg').value.trim();
+            const subject = encodeURIComponent('Project inquiry from ' + name);
+            const body = encodeURIComponent(msg + '\n\n— ' + name + ' (' + email + ')');
+            const href = `mailto:ahmad.mahallawy@gmail.com?subject=${subject}&body=${body}`;
+            window.location.href = href;
+            document.getElementById('formStatus').textContent = 'Opening your email client…';
+        }
+        window.sendMail = sendMail;
+
+        // -----------------------------
+        // Button ripple (click feedback)
+        // -----------------------------
+        const rippleable = () => document.querySelectorAll('.btn, .theme-toggle, .menu-btn, button, .chip');
+        const addRipple = (el) => {
+            el.addEventListener('click', (e) => {
+                if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+                const rect = el.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const ripple = document.createElement('span');
+                ripple.className = 'ripple';
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+                ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+                el.appendChild(ripple);
+                ripple.addEventListener('animationend', () => ripple.remove());
+            }, { passive: true });
+        };
+        rippleable().forEach(addRipple);
+
+        // -----------------------------
+        // QUICK CUSTOMIZATION NOTES
+        // -----------------------------
+        // To strengthen or soften the section glow, adjust the alphas in --band-1/2.
     </script>
-  </body>
+</body>
+
 </html>
